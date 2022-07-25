@@ -82,3 +82,20 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+@media (max-width: 800px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 44px;
+    line-height: 1.2;
+    margin-top: 20px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .introduction {
+    padding: 80px 20px;
+  }
+}
