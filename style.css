@@ -4,22 +4,7 @@
   --headind-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
-@media (max-width: 800px) {
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
-  h1 {
-    font-size: 44px;
-    line-height: 2;
-  }
-  h2 {
-    font-size: 44px;
-  }
-  .introduction {
-    padding: 80px 20px;
-  }
-}
+
 body {
   font-family: var(--default-font-family);
 }
@@ -35,6 +20,7 @@ h6 {
 }
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 h2 {
   font-size: 64px;
@@ -82,18 +68,26 @@ p {
 .project-description {
   padding: 120px 60px;
 }
-.about-section {
-  padding: 120px 60px;
+.content-container {
+  padding: 160px 20px;
 }
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section-content {
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+}
+.content p {
+  font-size: 14px;
+}
+.content {
   margin: 30px;
 }
 
@@ -113,7 +107,7 @@ p {
   .introduction {
     padding: 80px 20px;
   }
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
