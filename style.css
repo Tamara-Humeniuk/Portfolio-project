@@ -46,6 +46,9 @@ h2 {
 h4 {
   font-size: 48px;
 }
+h5 {
+  font-size: 30px;
+}
 p {
   font-size: 16px;
   font-weight: normal;
@@ -55,7 +58,7 @@ p {
 .introduction {
   background: var(--branding-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .introduction p {
   font-size: 36px;
@@ -90,7 +93,7 @@ p {
   padding: 120px 60px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 64px;
@@ -110,6 +113,10 @@ p {
 }
 .content {
   margin: 30px;
+}
+.contacts a {
+  text-decoration: none;
+  color: var(--secondary-color);
 }
 footer {
   margin: 60px 0;
@@ -155,7 +162,8 @@ footer .email-link:hover {
     padding: 0;
     text-align: center;
   }
-  h1 {
+  h1,
+  .content h1 {
     font-size: 44px;
     line-height: 1.2;
     margin-top: 20px;
@@ -163,10 +171,10 @@ footer .email-link:hover {
   h2 {
     font-size: 35px;
   }
-  .introduction {
-    padding: 80px 20px;
+  h5 {
+    font-size: 25px;
   }
-  .content {
+  .content-container {
     text-align: center;
     padding: 0;
   }
